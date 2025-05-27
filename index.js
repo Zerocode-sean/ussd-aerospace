@@ -5,7 +5,7 @@ const app = express();
 // Africa’s Talking SDK
 const AfricasTalking = require('africastalking');
 const credentials = {
-  apiKey: 'YOUR_API_KEY', // From Africa’s Talking sandbox
+  apiKey: 'atsk_1e7a6720bf626f8426f9ed133dddb5e99c4bfd3a75208997a1ba9c001b584206bb88351f', // From Africa’s Talking sandbox
   username: 'sandbox' // Use 'sandbox' for testing
 };
 const africastalking = AfricasTalking(credentials);
